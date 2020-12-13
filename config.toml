@@ -1,0 +1,9 @@
+baseURL = "https://bostontrails.run/"
+languageCode = "en-us"
+title = "bostonTrails.run"
+theme = "pickles"
+unsafe = true
+
+[params]
+    custom_css = ["override.css"]
+    author = "jmcinerney"

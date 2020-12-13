@@ -1,0 +1,17 @@
+</main>
+{{ partial "menu.html" . }}
+<footer class="l-footer">
+  {{ partial "link.html" . }}
+
+  <p class="p-copyright">
+    <a href="{{ "about" | absLangURL }}">About</a>
+    &nbsp;&bull;&nbsp;
+    {{ .Site.LastChange.Format "2006" }}
+    &nbsp;&bull;&nbsp;
+    <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
+  </p>
+</footer>
+
+{{- partial "footer_custom.html" . }}
+</body>
+</html>

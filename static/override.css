@@ -1,0 +1,30 @@
+figure {
+  margin: 0px;
+  text-align: center;
+}
+
+th, td {
+  padding: 2px 8px 0px 8px;
+  border: 0px solid #eee;
+}
+
+th {
+  background-color:#ededed;
+  font-weight:bold;
+}
+
+h1 {
+  margin: 0;
+}
+
+.p-article__body{
+  margin: 10px 0px 10px 0px;
+}
+
+table {
+  margin-top: 10px;
+}
+
+p {
+  margin: 4px 0px 4px 0px;
+}
