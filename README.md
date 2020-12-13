@@ -1,9 +1,3 @@
----
-title: "About"
-date: 2020-09-07T22:29:46-04:00
-draft: false
-hideDate: true
----
 This site is a WIP, contact me at jonwmcinerney@gmail.com if you are interested in helping out.
 
 ### What is this?
