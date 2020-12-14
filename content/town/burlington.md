@@ -1,6 +1,6 @@
 ---
 title: "Burlington"
-draft: true
+draft: false
 hideDate: true
 ---
 Burlington is relatively sparse on conservation land but there are a few parcels of land spaced throughout town to get you on some trail.

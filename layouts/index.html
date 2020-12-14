@@ -4,7 +4,9 @@
 <h3>Towns</h3>
 <ul>
   {{ range where .Site.RegularPages "Section" "town"}}
-    <li><a style="font-size:20px" href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{ if eq .Draft false}}
+      <li><a style="font-size:20px" href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{ end }}
   {{ end }}
 </ul>
 <h3>Trail Systems</h3>
@@ -16,7 +18,9 @@
 <h3>Day Trips</h3>
 <ul>
   {{ range where .Site.RegularPages "Section" "trip"}}
-    <li><a style="font-size:20px" href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{ if eq .Draft false}}
+      <li><a style="font-size:20px" href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{ end }}
   {{ end }}
 </ul>
 
@@ -28,6 +32,25 @@
   <p>Offered by the Metropolitan Area Planning Council, this is a composite map of trails and paved pedestian pathways.</p>
   <li><a href="https://www.baycircuit.org/maps-guides/">Bay Circuit Trail</a></li>
   <p>With over 230 miles of trail, the Bay Circuit Trail forms a near continous circular band around the Boston area linking up various trail systems.</p>
+</ul>
+
+<h3>Work In Progress</h3>
+<ul>
+  {{ range where .Site.RegularPages "Section" "town"}}
+    {{ if eq .Draft true}}
+      <li><a style="font-size:20px" href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{ end }}
+  {{ end }}
+  {{ range where .Site.RegularPages "Section" "loc"}}
+    {{ if eq .Draft true}}
+      <li><a style="font-size:20px" href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{ end }}
+  {{ end }}
+  {{ range where .Site.RegularPages "Section" "trip"}}
+    {{ if eq .Draft true}}
+      <li><a style="font-size:20px" href="{{.RelPermalink}}">{{.Title}}</a></li>
+    {{ end }}
+  {{ end }}
 </ul>
 
 {{ partial "footer.html" . }}

@@ -7,3 +7,9 @@ unsafe = true
 [params]
     custom_css = ["override.css"]
     author = "jmcinerney"
+    title = "bostonTrails.run"
+    description = "A resource for the Boston runner looking to hit the trails."
+    images = ["core/boston.png"]
+
+[taxonomies]
+    series = "series"

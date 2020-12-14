@@ -3,13 +3,12 @@ title: "Mount Wachusett"
 draft: true
 hideDate: true
 ---
-intro description here
+Mount wachusett description....
 
-Located adjacent to the towns of Milton, Quincy, Canton and Randolph.
 
 | Routes                        | Miles | Strava                              | GPX                                         |
 | ---                           | ---   | ---                                 | ---                                         |
-| wawa                          | 4.6   | {{< strava 12345 >}}                | {{< gpx wachusett Wachusett-abcd >}}        |
+| Wachusett 10K                 | 5.8   | {{< strava 2773345748784758520 >}}  | x       |
 
 ### Additional Resources
 * [Mass DCR Map](/files/wachusett/WachusettMountStateReservationMap.pdf)
